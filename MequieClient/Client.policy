@@ -1,0 +1,8 @@
+/* AUTOMATICALLY GENERATED ON Sat Mar 21 23:07:03 GMT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission java.net.SocketPermission "*:2575", "connect,resolve";
+  permission java.net.SocketPermission "127.0.0.1:2575", "connect, resolve";
+};
+

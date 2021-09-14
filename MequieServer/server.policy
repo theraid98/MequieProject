@@ -1,0 +1,15 @@
+/* AUTOMATICALLY GENERATED ON Sat Mar 21 22:59:25 GMT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission java.io.FilePermission "groups${/}-", "read, write, delete";
+  permission java.io.FilePermission "groupList.txt", "read, write";
+  permission java.io.FilePermission "users.txt", "read, write";
+  permission java.net.SocketPermission "*:2575", "accept, connect, listen, resolve";
+  permission java.net.SocketPermission "localhost:2575", "listen, resolve, accept, connect";
+  permission java.lang.RuntimePermission "shutdownHooks";
+  permission java.net.SocketPermission "127.0.0.1:*", "accept, resolve";
+  permission java.io.FilePermission "groups", "write";
+  permission java.util.PropertyPermission "${user.home}", "read";
+};
+
